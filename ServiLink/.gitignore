@@ -70,12 +70,6 @@ artifacts/
 *.err
 *.out
 
-# Web Files
-node_modules/
-bower_components/
-jspm_packages/
-wwwroot/node_modules/
-
 # Coverage
 coverage/
 *.coverage
@@ -89,16 +83,4 @@ coverage/
 *.yarn
 *.env
 
-# Miscellaneous
-desktop.ini
-Thumbs.db
-ehthumbs.db
-*.log
-*.pfx
-*.key
-*.pub
-*.cer
-*.crt
 
-# Visual Studio Installer
-.vsconfig

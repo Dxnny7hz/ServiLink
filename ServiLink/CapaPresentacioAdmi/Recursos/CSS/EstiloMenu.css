@@ -1,37 +1,22 @@
-﻿body {
-}
-*{
-
-}
-
-
-.btn-icon {
-    display: block;
-    padding: 20px;
-    border: 2px solid #FF5722; /* Borde naranja */
-    border-radius: 10px;
-    text-decoration: none;
-    color: #333;
-    transition: all 0.3s ease;
+﻿/* styles.css */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.btn-icon:hover {
-    background-color: #FF5722; /* Fondo naranja al pasar el mouse */
-    color: #fff;
-    transform: scale(1.05); /* Efecto de escala */
+.sb-sidenav {
+    background-color: #FF5722;
 }
 
-.btn-icon i {
-    margin-bottom: 10px;
+.nav-link {
+    color: white !important;
 }
 
-.btn-icon h3 {
-    margin: 10px 0;
-    font-size: 1.2em;
-}
+    .nav-link:hover {
+        color: #FFC107 !important;
+    }
 
-.btn-icon p {
-    font-size: 0.9em;
-    color: #666;
+.sb-sidenav-footer {
+    background-color: #E64A19;
+    color: white;
 }
-

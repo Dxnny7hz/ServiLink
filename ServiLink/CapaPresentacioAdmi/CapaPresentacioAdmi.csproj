@@ -252,8 +252,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Recursos\CSS\EstiloLog.css" />
     <Content Include="Recursos\CSS\EstiloMenu.css" />
-    <Content Include="Recursos\CSS\EstilosLog.css" />
+    <Content Include="Recursos\CSS\EstiloSoli.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
