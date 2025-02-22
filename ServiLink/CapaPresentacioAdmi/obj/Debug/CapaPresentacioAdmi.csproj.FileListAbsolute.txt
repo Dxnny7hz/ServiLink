@@ -1,0 +1,262 @@
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\CapaPresentacioAdmi.dll.config
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\CapaPresentacioAdmi.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\CapaPresentacioAdmi.pdb
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\csc.exe
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\csc.exe.config
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\csc.rsp
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\csi.exe
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\csi.exe.config
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\csi.rsp
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.AppContext.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Console.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.Compression.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Net.Http.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.ValueTuple.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\vbc.exe
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\vbc.exe.config
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\vbc.rsp
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\VBCSCompiler.exe
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\Antlr3.Runtime.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\Newtonsoft.Json.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.Helpers.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.Mvc.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.Optimization.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.Razor.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Razor.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\WebGrease.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.Helpers.xml
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.Mvc.xml
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.Optimization.xml
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.Razor.xml
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.xml
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Razor.xml
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\Newtonsoft.Json.xml
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\Antlr3.Runtime.pdb
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Helpers.resources.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Mvc.resources.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Optimization.resources.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Razor.resources.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.WebPages.resources.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.csproj.AssemblyReference.cache
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.csproj.CoreCompileInputs.cache
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPres.1D5FEC44.Up2Date
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.dll
+C:\Users\evilj\Desktop\ServiLink Proyecto de Software III\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.pdb
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\CapaPresentacioAdmi.dll.config
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\CapaPresentacioAdmi.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\CapaPresentacioAdmi.pdb
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csc.exe
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csc.exe.config
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csc.rsp
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csi.exe
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csi.exe.config
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csi.rsp
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.AppContext.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Console.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Net.Http.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\vbc.exe
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\vbc.exe.config
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\vbc.rsp
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Antlr3.Runtime.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Newtonsoft.Json.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Helpers.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Mvc.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Optimization.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Razor.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\WebGrease.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Helpers.xml
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Mvc.xml
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Optimization.xml
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Razor.xml
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.xml
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Newtonsoft.Json.xml
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Antlr3.Runtime.pdb
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Razor.resources.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.csproj.AssemblyReference.cache
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.csproj.CoreCompileInputs.cache
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPres.1D5FEC44.Up2Date
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.dll
+C:\Users\Dxnny\Downloads\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.pdb
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\CapaPresentacioAdmi.dll.config
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\CapaPresentacioAdmi.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\CapaPresentacioAdmi.pdb
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csc.exe
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csc.exe.config
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csc.rsp
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csi.exe
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csi.exe.config
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\csi.rsp
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.AppContext.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Console.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Net.Http.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\vbc.exe
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\vbc.exe.config
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\vbc.rsp
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Antlr3.Runtime.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\EntityFramework.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\EntityFramework.SqlServer.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Newtonsoft.Json.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Helpers.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Mvc.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Optimization.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Razor.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\WebGrease.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\EntityFramework.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\EntityFramework.SqlServer.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Helpers.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Mvc.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Optimization.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.Razor.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Newtonsoft.Json.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Antlr3.Runtime.pdb
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.Razor.resources.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.csproj.AssemblyReference.cache
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.csproj.CoreCompileInputs.cache
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPres.1D5FEC44.Up2Date
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.dll
+C:\Users\Dxnny\Desktop\ServiLink\ServiLink\ServiLink\CapaPresentacioAdmi\obj\Debug\CapaPresentacioAdmi.pdb

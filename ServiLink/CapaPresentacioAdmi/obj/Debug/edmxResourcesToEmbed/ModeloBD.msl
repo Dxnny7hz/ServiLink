@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SERVICIOSPROFESIONALES1ModelStoreContainer" CdmEntityContainer="SERVICIOSPROFESIONALES1Entities">
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Preferencias" ColumnName="Preferencias" />
+          <ScalarProperty Name="Historial_Servicios" ColumnName="Historial_Servicios" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistorialServicio">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.HistorialServicio">
+        <MappingFragment StoreEntitySet="HistorialServicio">
+          <ScalarProperty Name="Historial_ID" ColumnName="Historial_ID" />
+          <ScalarProperty Name="Solicitud_ID" ColumnName="Solicitud_ID" />
+          <ScalarProperty Name="Profesional_ID" ColumnName="Profesional_ID" />
+          <ScalarProperty Name="Estado_Anterior" ColumnName="Estado_Anterior" />
+          <ScalarProperty Name="Estado_Nuevo" ColumnName="Estado_Nuevo" />
+          <ScalarProperty Name="Fecha_Cambio" ColumnName="Fecha_Cambio" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notificacion">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Notificacion">
+        <MappingFragment StoreEntitySet="Notificacion">
+          <ScalarProperty Name="Notificacion_ID" ColumnName="Notificacion_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Mensaje" ColumnName="Mensaje" />
+          <ScalarProperty Name="Fecha_Envio" ColumnName="Fecha_Envio" />
+          <ScalarProperty Name="Leida" ColumnName="Leida" />
+          <ScalarProperty Name="Prioridad" ColumnName="Prioridad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profesional">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Profesional">
+        <MappingFragment StoreEntitySet="Profesional">
+          <ScalarProperty Name="Profesional_ID" ColumnName="Profesional_ID" />
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Especialidad" ColumnName="Especialidad" />
+          <ScalarProperty Name="Certificaciones" ColumnName="Certificaciones" />
+          <ScalarProperty Name="Calificacion_Promedio" ColumnName="Calificacion_Promedio" />
+          <ScalarProperty Name="Disponibilidad" ColumnName="Disponibilidad" />
+          <ScalarProperty Name="Ubicacion_Latitud" ColumnName="Ubicacion_Latitud" />
+          <ScalarProperty Name="Ubicacion_Longitud" ColumnName="Ubicacion_Longitud" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servicio">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Servicio">
+        <MappingFragment StoreEntitySet="Servicio">
+          <ScalarProperty Name="Servicio_ID" ColumnName="Servicio_ID" />
+          <ScalarProperty Name="Nombre_Servicio" ColumnName="Nombre_Servicio" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="Costo_Base" ColumnName="Costo_Base" />
+          <ScalarProperty Name="Tiempo_Promedio" ColumnName="Tiempo_Promedio" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Solicitud">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Solicitud">
+        <MappingFragment StoreEntitySet="Solicitud">
+          <ScalarProperty Name="Solicitud_ID" ColumnName="Solicitud_ID" />
+          <ScalarProperty Name="Cliente_ID" ColumnName="Cliente_ID" />
+          <ScalarProperty Name="Profesional_ID" ColumnName="Profesional_ID" />
+          <ScalarProperty Name="Servicio_ID" ColumnName="Servicio_ID" />
+          <ScalarProperty Name="Fecha_Solicitud" ColumnName="Fecha_Solicitud" />
+          <ScalarProperty Name="Fecha_Programada" ColumnName="Fecha_Programada" />
+          <ScalarProperty Name="Direccion_Servicio" ColumnName="Direccion_Servicio" />
+          <ScalarProperty Name="Detalles" ColumnName="Detalles" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Costo_Final" ColumnName="Costo_Final" />
+          <ScalarProperty Name="Metodo_Pago" ColumnName="Metodo_Pago" />
+          <ScalarProperty Name="Calificacion" ColumnName="Calificacion" />
+          <ScalarProperty Name="Comentarios" ColumnName="Comentarios" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Usuario_ID" ColumnName="Usuario_ID" />
+          <ScalarProperty Name="Nombre_Completo" ColumnName="Nombre_Completo" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Fecha_Registro" ColumnName="Fecha_Registro" />
+          <ScalarProperty Name="Fecha_Nacimiento" ColumnName="Fecha_Nacimiento" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

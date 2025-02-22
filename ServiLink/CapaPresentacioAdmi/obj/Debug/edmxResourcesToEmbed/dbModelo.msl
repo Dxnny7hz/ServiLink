@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SERVICIOSPROFESIONALES1ModelStoreContainer" CdmEntityContainer="SERVICIOSPROFESIONALES1Entities1">
+    <EntitySetMapping Name="Especializaciones">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Especializaciones">
+        <MappingFragment StoreEntitySet="Especializaciones">
+          <ScalarProperty Name="id_especializacion" ColumnName="id_especializacion" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Etiqueta">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Etiqueta">
+        <MappingFragment StoreEntitySet="Etiqueta">
+          <ScalarProperty Name="id_etiqueta" ColumnName="id_etiqueta" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistorialServicios">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.HistorialServicios">
+        <MappingFragment StoreEntitySet="HistorialServicios">
+          <ScalarProperty Name="id_historial" ColumnName="id_historial" />
+          <ScalarProperty Name="id_solicitud" ColumnName="id_solicitud" />
+          <ScalarProperty Name="id_proveedor" ColumnName="id_proveedor" />
+          <ScalarProperty Name="estadoProgreso" ColumnName="estadoProgreso" />
+          <ScalarProperty Name="fecha_cambio" ColumnName="fecha_cambio" />
+          <ScalarProperty Name="comentario" ColumnName="comentario" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notificaciones">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Notificaciones">
+        <MappingFragment StoreEntitySet="Notificaciones">
+          <ScalarProperty Name="id_notificacion" ColumnName="id_notificacion" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="mensaje" ColumnName="mensaje" />
+          <ScalarProperty Name="fecha_envio" ColumnName="fecha_envio" />
+          <ScalarProperty Name="leida" ColumnName="leida" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProveedorEtiqueta">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.ProveedorEtiqueta">
+        <MappingFragment StoreEntitySet="ProveedorEtiqueta">
+          <ScalarProperty Name="id_ProveedorEtiqueta" ColumnName="id_ProveedorEtiqueta" />
+          <ScalarProperty Name="id_proveedor" ColumnName="id_proveedor" />
+          <ScalarProperty Name="id_etiqueta" ColumnName="id_etiqueta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProveedorServicio">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.ProveedorServicio">
+        <MappingFragment StoreEntitySet="ProveedorServicio">
+          <ScalarProperty Name="id_proveedor" ColumnName="id_proveedor" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="id_especializacion" ColumnName="id_especializacion" />
+          <ScalarProperty Name="descripcion_perfil" ColumnName="descripcion_perfil" />
+          <ScalarProperty Name="disponibilidad" ColumnName="disponibilidad" />
+          <ScalarProperty Name="calificacion_promedio" ColumnName="calificacion_promedio" />
+          <ScalarProperty Name="latitud" ColumnName="latitud" />
+          <ScalarProperty Name="longitud" ColumnName="longitud" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="fecha_Registro" ColumnName="fecha_Registro" />
+          <ScalarProperty Name="fecha_Nacimiento" ColumnName="fecha_Nacimiento" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servicios">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Servicios">
+        <MappingFragment StoreEntitySet="Servicios">
+          <ScalarProperty Name="id_servicio" ColumnName="id_servicio" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiciosCategoria">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.ServiciosCategoria">
+        <MappingFragment StoreEntitySet="ServiciosCategoria">
+          <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Solicitante">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Solicitante">
+        <MappingFragment StoreEntitySet="Solicitante">
+          <ScalarProperty Name="id_solicitante" ColumnName="id_solicitante" />
+          <ScalarProperty Name="nombre_completo" ColumnName="nombre_completo" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="fecha_Registro" ColumnName="fecha_Registro" />
+          <ScalarProperty Name="fecha_Nacimiento" ColumnName="fecha_Nacimiento" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Solicitudes">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Solicitudes">
+        <MappingFragment StoreEntitySet="Solicitudes">
+          <ScalarProperty Name="id_solicitud" ColumnName="id_solicitud" />
+          <ScalarProperty Name="id_solicitante" ColumnName="id_solicitante" />
+          <ScalarProperty Name="id_servicio" ColumnName="id_servicio" />
+          <ScalarProperty Name="id_proveedor" ColumnName="id_proveedor" />
+          <ScalarProperty Name="fecha_solicitud" ColumnName="fecha_solicitud" />
+          <ScalarProperty Name="fecha_servicio" ColumnName="fecha_servicio" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="detalles" ColumnName="detalles" />
+          <ScalarProperty Name="direccion_servicio" ColumnName="direccion_servicio" />
+          <ScalarProperty Name="metodo_pago" ColumnName="metodo_pago" />
+          <ScalarProperty Name="costo" ColumnName="costo" />
+          <ScalarProperty Name="calificacion" ColumnName="calificacion" />
+          <ScalarProperty Name="comentario_calificacion" ColumnName="comentario_calificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+          <ScalarProperty Name="fecha_Registro" ColumnName="fecha_Registro" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="rol" ColumnName="rol" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_ValidarLogin" FunctionName="SERVICIOSPROFESIONALES1Model.Store.sp_ValidarLogin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SERVICIOSPROFESIONALES1Model.sp_ValidarLogin_Result">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="rol" ColumnName="rol" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SERVICIOSPROFESIONALES1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Cliente_ID" />
+    </Key>
+    <Property Name="Cliente_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario_ID" Type="int" Nullable="false" />
+    <Property Name="Preferencias" Type="varchar" MaxLength="500" />
+    <Property Name="Historial_Servicios" Type="int" />
+  </EntityType>
+  <EntityType Name="HistorialServicio">
+    <Key>
+      <PropertyRef Name="Historial_ID" />
+    </Key>
+    <Property Name="Historial_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Solicitud_ID" Type="int" Nullable="false" />
+    <Property Name="Profesional_ID" Type="int" />
+    <Property Name="Estado_Anterior" Type="varchar" MaxLength="20" />
+    <Property Name="Estado_Nuevo" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Fecha_Cambio" Type="datetime" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="Notificacion">
+    <Key>
+      <PropertyRef Name="Notificacion_ID" />
+    </Key>
+    <Property Name="Notificacion_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario_ID" Type="int" Nullable="false" />
+    <Property Name="Tipo" Type="varchar" MaxLength="30" />
+    <Property Name="Mensaje" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="Fecha_Envio" Type="datetime" />
+    <Property Name="Leida" Type="bit" />
+    <Property Name="Prioridad" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Profesional">
+    <Key>
+      <PropertyRef Name="Profesional_ID" />
+    </Key>
+    <Property Name="Profesional_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario_ID" Type="int" Nullable="false" />
+    <Property Name="Especialidad" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Certificaciones" Type="varchar" MaxLength="500" />
+    <Property Name="Calificacion_Promedio" Type="decimal" Precision="3" Scale="2" />
+    <Property Name="Disponibilidad" Type="varchar" MaxLength="15" />
+    <Property Name="Ubicacion_Latitud" Type="decimal" Precision="10" Scale="6" />
+    <Property Name="Ubicacion_Longitud" Type="decimal" Precision="10" Scale="6" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Servicio">
+    <Key>
+      <PropertyRef Name="Servicio_ID" />
+    </Key>
+    <Property Name="Servicio_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_Servicio" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Categoria" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Costo_Base" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Tiempo_Promedio" Type="time" Precision="7" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Solicitud">
+    <Key>
+      <PropertyRef Name="Solicitud_ID" />
+    </Key>
+    <Property Name="Solicitud_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cliente_ID" Type="int" Nullable="false" />
+    <Property Name="Profesional_ID" Type="int" />
+    <Property Name="Servicio_ID" Type="int" Nullable="false" />
+    <Property Name="Fecha_Solicitud" Type="datetime" />
+    <Property Name="Fecha_Programada" Type="datetime" Nullable="false" />
+    <Property Name="Direccion_Servicio" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="Detalles" Type="text" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" />
+    <Property Name="Costo_Final" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Metodo_Pago" Type="varchar" MaxLength="20" />
+    <Property Name="Calificacion" Type="int" />
+    <Property Name="Comentarios" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Usuario_ID" />
+    </Key>
+    <Property Name="Usuario_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_Completo" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="Documento" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Direccion" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Fecha_Registro" Type="datetime" />
+    <Property Name="Fecha_Nacimiento" Type="date" />
+    <Property Name="Correo" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Sexo" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Contrasena" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Rol" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <Association Name="FK__Cliente__Usuario__5441852A">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Usuario_ID" />
+      </Principal>
+      <Dependent Role="Cliente">
+        <PropertyRef Name="Usuario_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Historial__Profe__71D1E811">
+    <End Role="Profesional" Type="Self.Profesional" Multiplicity="0..1" />
+    <End Role="HistorialServicio" Type="Self.HistorialServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profesional">
+        <PropertyRef Name="Profesional_ID" />
+      </Principal>
+      <Dependent Role="HistorialServicio">
+        <PropertyRef Name="Profesional_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Historial__Solic__70DDC3D8">
+    <End Role="Solicitud" Type="Self.Solicitud" Multiplicity="1" />
+    <End Role="HistorialServicio" Type="Self.HistorialServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Solicitud">
+        <PropertyRef Name="Solicitud_ID" />
+      </Principal>
+      <Dependent Role="HistorialServicio">
+        <PropertyRef Name="Solicitud_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notificac__Usuar__787EE5A0">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Notificacion" Type="Self.Notificacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Usuario_ID" />
+      </Principal>
+      <Dependent Role="Notificacion">
+        <PropertyRef Name="Usuario_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Profesion__Usuar__5DCAEF64">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Profesional" Type="Self.Profesional" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Usuario_ID" />
+      </Principal>
+      <Dependent Role="Profesional">
+        <PropertyRef Name="Usuario_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Solicitud__Clien__6B24EA82">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Solicitud" Type="Self.Solicitud" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Cliente_ID" />
+      </Principal>
+      <Dependent Role="Solicitud">
+        <PropertyRef Name="Cliente_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Solicitud__Profe__6C190EBB">
+    <End Role="Profesional" Type="Self.Profesional" Multiplicity="0..1" />
+    <End Role="Solicitud" Type="Self.Solicitud" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profesional">
+        <PropertyRef Name="Profesional_ID" />
+      </Principal>
+      <Dependent Role="Solicitud">
+        <PropertyRef Name="Profesional_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Solicitud__Servi__6D0D32F4">
+    <End Role="Servicio" Type="Self.Servicio" Multiplicity="1" />
+    <End Role="Solicitud" Type="Self.Solicitud" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servicio">
+        <PropertyRef Name="Servicio_ID" />
+      </Principal>
+      <Dependent Role="Solicitud">
+        <PropertyRef Name="Servicio_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SERVICIOSPROFESIONALES1ModelStoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistorialServicio" EntityType="Self.HistorialServicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notificacion" EntityType="Self.Notificacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profesional" EntityType="Self.Profesional" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Servicio" EntityType="Self.Servicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Solicitud" EntityType="Self.Solicitud" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Cliente__Usuario__5441852A" Association="Self.FK__Cliente__Usuario__5441852A">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Cliente" EntitySet="Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Historial__Profe__71D1E811" Association="Self.FK__Historial__Profe__71D1E811">
+      <End Role="Profesional" EntitySet="Profesional" />
+      <End Role="HistorialServicio" EntitySet="HistorialServicio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Historial__Solic__70DDC3D8" Association="Self.FK__Historial__Solic__70DDC3D8">
+      <End Role="Solicitud" EntitySet="Solicitud" />
+      <End Role="HistorialServicio" EntitySet="HistorialServicio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notificac__Usuar__787EE5A0" Association="Self.FK__Notificac__Usuar__787EE5A0">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Notificacion" EntitySet="Notificacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Profesion__Usuar__5DCAEF64" Association="Self.FK__Profesion__Usuar__5DCAEF64">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Profesional" EntitySet="Profesional" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Solicitud__Clien__6B24EA82" Association="Self.FK__Solicitud__Clien__6B24EA82">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Solicitud" EntitySet="Solicitud" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Solicitud__Profe__6C190EBB" Association="Self.FK__Solicitud__Profe__6C190EBB">
+      <End Role="Profesional" EntitySet="Profesional" />
+      <End Role="Solicitud" EntitySet="Solicitud" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Solicitud__Servi__6D0D32F4" Association="Self.FK__Solicitud__Servi__6D0D32F4">
+      <End Role="Servicio" EntitySet="Servicio" />
+      <End Role="Solicitud" EntitySet="Solicitud" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
