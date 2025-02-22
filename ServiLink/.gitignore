@@ -41,9 +41,7 @@ App_Logs/
 *.config.user
 *.db
 
-# Entity Framework Migrations
-Migrations/
-*.designer.cs
+
 
 # SQL Server
 *.mdf
