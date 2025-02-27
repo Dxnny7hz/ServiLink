@@ -16,6 +16,9 @@ body {
     padding: 0;
     color: var(--dark-gray);
 }
+h2  {
+    text-align:center
+}
 
 /* Contenedor principal del formulario */
 .form-container {
@@ -29,7 +32,7 @@ body {
 }
 
     /* Título del formulario */
-    .form-container h2 {
+.form-container h2 {
         text-align: center;
         color: var(--orange);
         margin-bottom: 20px;
@@ -97,3 +100,13 @@ select.form-control {
     background-repeat: no-repeat;
     background-position: right 10px center;
 }
+
+.link-login {
+    color: #FF9934;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .link-login:hover {
+        text-decoration: underline;
+    }

@@ -69,7 +69,7 @@ namespace CapaPresentacioAdmi.Controllers
         public ActionResult Logout()
         {
             FormsAuthentication.SignOut();
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("Logout", "Account");
         }
     }
 

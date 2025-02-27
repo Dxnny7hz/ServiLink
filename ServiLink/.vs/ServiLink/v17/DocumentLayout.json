@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|c:\\users\\dxnny\\desktop\\servilink\\servilink\\servilink\\capapresentacioadmi\\views\\registro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\views\\registro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\controllers\\registrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|c:\\users\\dxnny\\desktop\\servilink\\servilink\\servilink\\capapresentacioadmi\\views\\registro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\views\\registro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\recursos\\css\\estilosregistros.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\recursos\\css\\estilosregistros.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|c:\\users\\dxnny\\desktop\\servilink\\servilink\\servilink\\capapresentacioadmi\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\models\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\models\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,24 +43,32 @@
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\views\\menu\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\models\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\models\\registroviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\models\\especializacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\models\\especializacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\webforms\\frmregistro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\webforms\\frmregistro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|c:\\users\\dxnny\\desktop\\servilink\\servilink\\servilink\\capapresentacioadmi\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\webforms\\frmregistro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\webforms\\frmregistro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\webforms\\frmprincipio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\webforms\\frmprincipio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\webforms\\frmregistro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\webforms\\frmregistro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -67,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\recursos\\css\\estilologin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,20 +95,12 @@
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\recursos\\css\\estilosregistros.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\recursos\\css\\estilosregistros.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\webforms\\frmprincipio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\webforms\\frmprincipio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\modeloservilink.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\modeloservilink.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\capapresentacioadmi\\webforms\\frmprincipio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CBF5829-E1CF-4E56-9F83-FCF649782A6A}|CapaPresentacioAdmi\\CapaPresentacioAdmi.csproj|solutionrelative:capapresentacioadmi\\webforms\\frmprincipio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,96 +110,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Registro\\Index.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Views\\Registro\\Index.cshtml",
               "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Registro\\Index.cshtml",
               "RelativeToolTip": "CapaPresentacioAdmi\\Views\\Registro\\Index.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAIIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAH4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-27T03:39:52.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RegistroController.cs",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\RegistroController.cs",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Controllers\\RegistroController.cs",
               "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\RegistroController.cs",
               "RelativeToolTip": "CapaPresentacioAdmi\\Controllers\\RegistroController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvzAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T03:30:49.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "CapaPresentacioAdmi\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T23:47:52.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "CapaPresentacioAdmi\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T03:22:52.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Menu\\Home.cshtml",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Views\\Menu\\Home.cshtml",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Menu\\Home.cshtml",
-              "RelativeToolTip": "CapaPresentacioAdmi\\Views\\Menu\\Home.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T03:23:52.136Z"
+              "WhenOpened": "2025-02-27T03:30:49.629Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "RegistroViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Models\\RegistroViewModel.cs",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Models\\RegistroViewModel.cs",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Models\\RegistroViewModel.cs",
+              "RelativeToolTip": "CapaPresentacioAdmi\\Models\\RegistroViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T03:35:14.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\HomeController.cs",
               "RelativeToolTip": "CapaPresentacioAdmi\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA0AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T23:34:19.065Z"
+              "WhenOpened": "2025-02-26T23:34:19.065Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CapaPresentacioAdmi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T23:47:52.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Views\\Account\\Index.cshtml",
               "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Account\\Index.cshtml",
               "RelativeToolTip": "CapaPresentacioAdmi\\Views\\Account\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T00:07:34.774Z"
+              "WhenOpened": "2025-02-27T00:07:34.774Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "EstilosRegistros.css",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Recursos\\CSS\\EstilosRegistros.css",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Recursos\\CSS\\EstilosRegistros.css",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Recursos\\CSS\\EstilosRegistros.css",
+              "RelativeToolTip": "CapaPresentacioAdmi\\Recursos\\CSS\\EstilosRegistros.css",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-26T22:16:21.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Views\\Home\\Index.cshtml",
@@ -203,35 +213,51 @@
               "RelativeToolTip": "CapaPresentacioAdmi\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T01:08:12.864Z"
+              "WhenOpened": "2025-02-27T01:08:12.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "RegistroViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Models\\RegistroViewModel.cs",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Models\\RegistroViewModel.cs",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Models\\RegistroViewModel.cs",
-              "RelativeToolTip": "CapaPresentacioAdmi\\Models\\RegistroViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "CapaPresentacioAdmi\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T03:35:14.261Z"
+              "WhenOpened": "2025-02-27T03:22:52.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Models\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Models\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Models\\LoginViewModel.cs",
-              "RelativeToolTip": "CapaPresentacioAdmi\\Models\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T00:02:52.739Z"
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Menu\\Home.cshtml",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Views\\Menu\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Menu\\Home.cshtml",
+              "RelativeToolTip": "CapaPresentacioAdmi\\Views\\Menu\\Home.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T03:23:52.136Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CapaPresentacioAdmi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T00:13:00.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Especializacion.cs",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Models\\Especializacion.cs",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Models\\Especializacion.cs",
@@ -239,35 +265,25 @@
               "RelativeToolTip": "CapaPresentacioAdmi\\Models\\Especializacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T03:41:53.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmRegistro.aspx",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx",
-              "RelativeToolTip": "CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-26T19:33:14.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Web.config",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Web.config",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Web.config",
-              "RelativeToolTip": "CapaPresentacioAdmi\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-26T20:34:45.212Z"
+              "WhenOpened": "2025-02-27T03:41:53.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "CapaPresentacioAdmi\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T15:53:30.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "frmRegistro.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx.cs",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx.cs",
@@ -275,11 +291,64 @@
               "RelativeToolTip": "CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T19:33:17.699Z"
+              "WhenOpened": "2025-02-26T19:33:17.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmPrincipio.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx.cs",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx.cs",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx.cs",
+              "RelativeToolTip": "CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T20:35:57.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "CapaPresentacioAdmi\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T00:02:52.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmRegistro.aspx",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx",
+              "RelativeToolTip": "CapaPresentacioAdmi\\WebForms\\frmRegistro.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-26T19:33:14.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Web.config",
+              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Web.config",
+              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Web.config",
+              "RelativeToolTip": "CapaPresentacioAdmi\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-26T20:34:45.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "EstiloLogin.css",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Recursos\\CSS\\EstiloLogin.css",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Recursos\\CSS\\EstiloLogin.css",
@@ -287,11 +356,12 @@
               "RelativeToolTip": "CapaPresentacioAdmi\\Recursos\\CSS\\EstiloLogin.css",
               "ViewState": "AgIAAB4AAAAAAAAAAAAmwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-26T23:46:00.681Z"
+              "WhenOpened": "2025-02-26T23:46:00.681Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\App_Start\\RouteConfig.cs",
@@ -299,11 +369,12 @@
               "RelativeToolTip": "CapaPresentacioAdmi\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T00:10:59.37Z"
+              "WhenOpened": "2025-02-27T00:10:59.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "AccesoDenegado.cshtml",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Account\\AccesoDenegado.cshtml",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Views\\Account\\AccesoDenegado.cshtml",
@@ -311,23 +382,12 @@
               "RelativeToolTip": "CapaPresentacioAdmi\\Views\\Account\\AccesoDenegado.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T00:55:51.867Z"
+              "WhenOpened": "2025-02-27T00:55:51.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CapaPresentacioAdmi\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T00:13:00.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Global.asax.cs",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Global.asax.cs",
@@ -335,11 +395,12 @@
               "RelativeToolTip": "CapaPresentacioAdmi\\Global.asax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T00:10:34.928Z"
+              "WhenOpened": "2025-02-27T00:10:34.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\packages.config",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\packages.config",
@@ -347,11 +408,12 @@
               "RelativeToolTip": "CapaPresentacioAdmi\\packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-27T00:10:32.834Z"
+              "WhenOpened": "2025-02-27T00:10:32.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "frmPrincipio.aspx",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx",
@@ -359,42 +421,20 @@
               "RelativeToolTip": "CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-26T20:35:58.509Z"
+              "WhenOpened": "2025-02-26T20:35:58.509Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "frmPrincipio.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx.cs",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx.cs",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx.cs",
-              "RelativeToolTip": "CapaPresentacioAdmi\\WebForms\\frmPrincipio.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T20:35:57.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ModeloServilink.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\ModeloServilink.edmx",
               "RelativeDocumentMoniker": "CapaPresentacioAdmi\\ModeloServilink.edmx",
               "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\ModeloServilink.edmx [Diagram1]",
               "RelativeToolTip": "CapaPresentacioAdmi\\ModeloServilink.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-02-26T20:48:20.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EstilosRegistros.css",
-              "DocumentMoniker": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Recursos\\CSS\\EstilosRegistros.css",
-              "RelativeDocumentMoniker": "CapaPresentacioAdmi\\Recursos\\CSS\\EstilosRegistros.css",
-              "ToolTip": "C:\\Users\\Dxnny\\Desktop\\ServiLink\\ServiLink\\ServiLink\\CapaPresentacioAdmi\\Recursos\\CSS\\EstilosRegistros.css",
-              "RelativeToolTip": "CapaPresentacioAdmi\\Recursos\\CSS\\EstilosRegistros.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-26T22:16:21.191Z"
+              "WhenOpened": "2025-02-26T20:48:20.626Z",
+              "EditorCaption": " [Diagram1]"
             }
           ]
         }

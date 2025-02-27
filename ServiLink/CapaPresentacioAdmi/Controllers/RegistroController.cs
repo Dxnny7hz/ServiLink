@@ -23,7 +23,7 @@ namespace CapaPresentacioAdmi.Controllers
 
         // POST: Registro/Index
         [HttpPost]
-        [ValidateAntiForgeryToken]
+
         public ActionResult Index(RegistroViewModel model)
         {
             // Cargar las especializaciones en caso de que el modelo no sea válido
@@ -42,7 +42,11 @@ namespace CapaPresentacioAdmi.Controllers
                 {
                     RegistrarUsuario(model);
 
-                 
+                    // Establecer el mensaje de éxito en TempData
+                    TempData["SuccessMessage"] = "Usuario registrado exitosamente.";
+                    Console.WriteLine("Redirigiendo al login...");
+                    // Redirigir al login
+                    return RedirectToAction("Index", "Account");
                 }
                 catch (Exception ex)
                 {
@@ -54,6 +58,8 @@ namespace CapaPresentacioAdmi.Controllers
             // Si el modelo no es válido o hay un error, vuelve a mostrar el formulario
             return View(model);
         }
+
+         
 
         // Validación de archivos (extensión y tamaño máximo de 5MB)
         private bool ValidarArchivo(HttpPostedFileBase file)

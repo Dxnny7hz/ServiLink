@@ -7,11 +7,25 @@
 
 <link href="~/Recursos/CSS/EstilosRegistros.css" rel="stylesheet" />
 
-<h2>Registro de Usuarios</h2>
+<h2 style="text-align: center; width: 100%; color: #FF9934;">Registro de Usuarios</h2>
+<!-- Mostrar mensaje de éxito si existe -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
 
+<!-- Mostrar errores de validación si existen -->
+@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+{
+    <div class="alert alert-danger">
+        @error.ErrorMessage
+    </div>
+}
 @using (Html.BeginForm("Index", "Registro", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
-    @Html.AntiForgeryToken()
+
 
     <div class="form-container">
         <div class="form-group">
@@ -104,12 +118,18 @@
             @Html.TextAreaFor(m => m.DescripcionPerfil, new { @class = "form-control" })
         </div>
 
+        @Html.ValidationSummary(true, "", new { @class = "error-message" })
+
         <div class="form-group">
             <input type="submit" value="Registrar" class="btn-submit" />
         </div>
-
-        @Html.ValidationSummary(true, "", new { @class = "error-message" })
+        <div class="form-group text-center">
+            <p>¿Tienes cuenta? <a href="@Url.Action("Index", "Account")" style="text-align: center; width: 100%; color: #FF9934; font-weight: bold;">Inicia sesión aquí</a></p>
+        </div>
     </div>
+
+
+   
 }
 
 <script>
@@ -130,3 +150,5 @@
         toggleProveedorFields(rol);
     });
 </script>
+
+
