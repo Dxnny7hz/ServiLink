@@ -1,0 +1,132 @@
+﻿@model CapaPresentacioAdmi.Models.RegistroViewModel
+
+
+@{
+    ViewData["Title"] = "Registro de Usuarios";
+}
+
+<link href="~/Recursos/CSS/EstilosRegistros.css" rel="stylesheet" />
+
+<h2>Registro de Usuarios</h2>
+
+@using (Html.BeginForm("Index", "Registro", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-container">
+        <div class="form-group">
+            @Html.LabelFor(m => m.NombreCompleto)
+            @Html.TextBoxFor(m => m.NombreCompleto, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.NombreCompleto, "", new { @class = "error-message" })
+        </div>
+
+        <div class="form-group">
+            <label>Imagen de perfil (Opcional):</label>
+            <input type="file" name="ImagenPerfil" class="form-control" />
+        </div>
+
+        <div id="divDocumentosUsuario" class="form-group">
+            <label>Número de documento:</label>
+            @Html.TextBoxFor(m => m.Documento, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Documento, "", new { @class = "error-message" })
+
+            <label>Frente del documento:</label>
+            <input type="file" name="DocumentoFrente" class="form-control" />
+
+            <label>Reverso del documento:</label>
+            <input type="file" name="DocumentoAtras" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Direccion)
+            @Html.TextBoxFor(m => m.Direccion, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Direccion, "", new { @class = "error-message" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.FechaNacimiento)
+            @Html.TextBoxFor(m => m.FechaNacimiento, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+            @Html.ValidationMessageFor(m => m.FechaNacimiento, "", new { @class = "error-message" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Correo)
+            @Html.TextBoxFor(m => m.Correo, new { @class = "form-control", type = "email" })
+            @Html.ValidationMessageFor(m => m.Correo, "", new { @class = "error-message" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Telefono)
+            @Html.TextBoxFor(m => m.Telefono, new { @class = "form-control", type = "tel" })
+            @Html.ValidationMessageFor(m => m.Telefono, "", new { @class = "error-message" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Sexo)
+            @Html.DropDownListFor(m => m.Sexo, new List<SelectListItem>
+            {
+                new SelectListItem { Text = "Masculino", Value = "Masculino" },
+                new SelectListItem { Text = "Femenino", Value = "Femenino" },
+            }, "Seleccione", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Sexo, "", new { @class = "error-message" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.NombreUsuario)
+            @Html.TextBoxFor(m => m.NombreUsuario, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.NombreUsuario, "", new { @class = "error-message" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Contrasena)
+            @Html.PasswordFor(m => m.Contrasena, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Contrasena, "", new { @class = "error-message" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Rol)
+            @Html.DropDownListFor(m => m.Rol, new List<SelectListItem>
+            {
+                new SelectListItem { Text = "CONSUMIDOR", Value = "CONSUMIDOR" },
+                new SelectListItem { Text = "PROVEEDOR_SERVICIO", Value = "PROVEEDOR_SERVICIO" }
+            }, "Seleccione", new { @class = "form-control", onchange = "toggleProveedorFields(this.value)" })
+            @Html.ValidationMessageFor(m => m.Rol, "", new { @class = "error-message" })
+        </div>
+
+        <div id="divEspecializacion" class="form-group" style="display:none;">
+            @Html.LabelFor(m => m.EspecializacionId, "Especialización:")
+            @Html.DropDownListFor(m => m.EspecializacionId, (IEnumerable<SelectListItem>)ViewBag.Especializaciones, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.EspecializacionId, "", new { @class = "error-message" })
+        </div>
+
+        <div class="form-group" id="divDescripcionPerfil" style="display:none;">
+            @Html.LabelFor(m => m.DescripcionPerfil, "Descripción del Perfil:")
+            @Html.TextAreaFor(m => m.DescripcionPerfil, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Registrar" class="btn-submit" />
+        </div>
+
+        @Html.ValidationSummary(true, "", new { @class = "error-message" })
+    </div>
+}
+
+<script>
+    // Función para mostrar u ocultar campos según el rol seleccionado
+    function toggleProveedorFields(rol) {
+        if (rol === "PROVEEDOR_SERVICIO") {
+            document.getElementById("divEspecializacion").style.display = "block";
+            document.getElementById("divDescripcionPerfil").style.display = "block";
+        } else {
+            document.getElementById("divEspecializacion").style.display = "none";
+            document.getElementById("divDescripcionPerfil").style.display = "none";
+        }
+    }
+
+    // Al cargar la página, se comprueba el rol para ajustar la visibilidad
+    document.addEventListener("DOMContentLoaded", function () {
+        var rol = document.querySelector("[name='Rol']").value;
+        toggleProveedorFields(rol);
+    });
+</script>

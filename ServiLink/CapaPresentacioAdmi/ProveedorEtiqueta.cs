@@ -14,7 +14,7 @@ namespace CapaPresentacioAdmi
     
     public partial class ProveedorEtiqueta
     {
-        public int id_ProveedorEtiqueta { get; set; }
+        public int id_proveedor_etiqueta { get; set; }
         public int id_proveedor { get; set; }
         public int id_etiqueta { get; set; }
     

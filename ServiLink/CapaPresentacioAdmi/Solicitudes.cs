@@ -21,7 +21,7 @@ namespace CapaPresentacioAdmi
         }
     
         public int id_solicitud { get; set; }
-        public Nullable<int> id_solicitante { get; set; }
+        public Nullable<int> id_consumidor { get; set; }
         public Nullable<int> id_servicio { get; set; }
         public Nullable<int> id_proveedor { get; set; }
         public Nullable<System.DateTime> fecha_solicitud { get; set; }
@@ -34,10 +34,10 @@ namespace CapaPresentacioAdmi
         public Nullable<int> calificacion { get; set; }
         public string comentario_calificacion { get; set; }
     
+        public virtual Consumidor Consumidor { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<HistorialServicios> HistorialServicios { get; set; }
         public virtual ProveedorServicio ProveedorServicio { get; set; }
         public virtual Servicios Servicios { get; set; }
-        public virtual Solicitante Solicitante { get; set; }
     }
 }

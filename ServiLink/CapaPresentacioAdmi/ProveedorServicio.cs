@@ -23,27 +23,21 @@ namespace CapaPresentacioAdmi
         }
     
         public int id_proveedor { get; set; }
-        public Nullable<int> id_usuario { get; set; }
+        public int id_perfil { get; set; }
         public int id_especializacion { get; set; }
         public string descripcion_perfil { get; set; }
         public string disponibilidad { get; set; }
         public Nullable<decimal> calificacion_promedio { get; set; }
         public Nullable<decimal> latitud { get; set; }
         public Nullable<decimal> longitud { get; set; }
-        public string direccion { get; set; }
-        public Nullable<System.DateTime> fecha_Registro { get; set; }
-        public Nullable<System.DateTime> fecha_Nacimiento { get; set; }
-        public string correo { get; set; }
-        public string telefono { get; set; }
-        public string sexo { get; set; }
         public string estado { get; set; }
     
         public virtual Especializaciones Especializaciones { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<HistorialServicios> HistorialServicios { get; set; }
+        public virtual Perfil Perfil { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ProveedorEtiqueta> ProveedorEtiqueta { get; set; }
-        public virtual Usuario Usuario { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Solicitudes> Solicitudes { get; set; }
     }

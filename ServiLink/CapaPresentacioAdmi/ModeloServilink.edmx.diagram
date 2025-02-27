@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3ca9a81301c84629a1aa2bba35a24c54" Name="Diagram1">
+        <EntityTypeShape EntityType="ServilinkbdModelo.Administrador" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.Consumidor" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.Especializaciones" Width="1.5" PointX="5.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.Etiqueta" Width="1.5" PointX="8" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.HistorialServicios" Width="1.5" PointX="10.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.Notificaciones" Width="1.5" PointX="5.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.Perfil" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.ProveedorEtiqueta" Width="1.5" PointX="10.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.ProveedorServicio" Width="1.5" PointX="8" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.Servicios" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.ServiciosCategoria" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.Solicitudes" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ServilinkbdModelo.Usuario" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Administr__id_pe__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Consumido__id_pe__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Solicitud__id_co__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Proveedor__id_es__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Proveedor__id_et__17F790F9" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Historial__id_pr__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Historial__id_so__08B54D69" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Notificac__id_us__114A936A" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Proveedor__id_pe__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Usuario__id_perf__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Proveedor__id_pr__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Solicitud__id_pr__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Servicios__id_ca__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="ServilinkbdModelo.FK__Solicitud__id_se__01142BA1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

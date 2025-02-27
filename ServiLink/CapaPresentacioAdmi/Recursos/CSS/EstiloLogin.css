@@ -1,0 +1,116 @@
+﻿/* Variables de colores */
+:root {
+    --orange: #FF9934;
+    --yellow-orange: #FFC018;
+    --green: #8FEF4F;
+    --purple: #CD54E0;
+    --olive: #B3C631;
+    --light-gray: #f7f7f7;
+    --dark-gray: #333;
+}
+
+/* Estilos globales */
+body#cuerpo {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-gray);
+    margin: 0;
+    padding: 0;
+    color: var(--dark-gray);
+}
+
+/* Contenedor principal que centra el login en la pantalla */
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Contenedor del formulario de login */
+.formcontent {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid var(--orange);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Ajustes para los controles de formulario */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--olive);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Estilo de los labels */
+label {
+    font-size: 1.1em;
+    color: var(--dark-gray);
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Encabezado de bienvenida */
+.head3 {
+    font-size: 1.5em;
+    color: var(--orange);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo para el enlace de registro (No tiene cuenta) */
+.no-account {
+    text-align: center;
+    margin: 15px 0;
+}
+
+    .no-account label {
+        font-size: 0.9em;
+        color: var(--dark-gray);
+    }
+
+    .no-account a {
+        color: var(--yellow-orange);
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .no-account a:hover {
+            text-decoration: underline;
+        }
+
+/* Mensaje de error o alerta */
+.alert-danger {
+    color: var(--purple);
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Botón de ingreso personalizado */
+.btn {
+    background-color: var(--yellow-orange);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: var(--orange);
+    }
+
+/* Estilo de los mensajes de error */
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 15px;
+}

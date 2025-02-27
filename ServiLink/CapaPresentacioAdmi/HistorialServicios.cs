@@ -17,7 +17,7 @@ namespace CapaPresentacioAdmi
         public int id_historial { get; set; }
         public int id_solicitud { get; set; }
         public Nullable<int> id_proveedor { get; set; }
-        public string estadoProgreso { get; set; }
+        public string estado_progreso { get; set; }
         public Nullable<System.DateTime> fecha_cambio { get; set; }
         public string comentario { get; set; }
         public string estado { get; set; }

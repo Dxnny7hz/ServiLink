@@ -1,0 +1,40 @@
+﻿@model CapaPresentacioAdmi.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+
+    <link href="~/Recursos/CSS/EstiloLogin.css" rel="stylesheet" />
+</head>
+<div class="wrapper">
+    <div class="formcontent">
+        <h3 class="head3">Iniciar sesión</h3>
+
+        @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+        {
+            <div>
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" class="form-control" required />
+            </div>
+            <div>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" class="form-control" required />
+            </div>
+            <div>
+                <button type="submit" class="btn">Ingresar</button>
+            </div>
+            <div>
+                @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                {
+                    <p class="alert-danger">@ViewBag.ErrorMessage</p>
+                }
+            </div>
+            <div class="no-account">
+                <label>No tienes cuenta?</label>
+                <a href="#">Regístrate aquí</a>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ServilinkbdModelo.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Administrador">
+    <Key>
+      <PropertyRef Name="id_administrador" />
+    </Key>
+    <Property Name="id_administrador" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_perfil" Type="int" Nullable="false" />
+    <Property Name="nivel_acceso" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Consumidor">
+    <Key>
+      <PropertyRef Name="id_consumidor" />
+    </Key>
+    <Property Name="id_consumidor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_perfil" Type="int" Nullable="false" />
+    <Property Name="calificacion_promedio" Type="decimal" Precision="3" Scale="2" />
+    <Property Name="latitud" Type="decimal" Precision="10" Scale="6" />
+    <Property Name="longitud" Type="decimal" Precision="10" Scale="6" />
+    <Property Name="estado" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="detalles_adicionales" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Especializaciones">
+    <Key>
+      <PropertyRef Name="id_especializacion" />
+    </Key>
+    <Property Name="id_especializacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Etiqueta">
+    <Key>
+      <PropertyRef Name="id_etiqueta" />
+    </Key>
+    <Property Name="id_etiqueta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HistorialServicios">
+    <Key>
+      <PropertyRef Name="id_historial" />
+    </Key>
+    <Property Name="id_historial" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_solicitud" Type="int" Nullable="false" />
+    <Property Name="id_proveedor" Type="int" />
+    <Property Name="estado_progreso" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="fecha_cambio" Type="datetime" />
+    <Property Name="comentario" Type="varchar" MaxLength="500" />
+    <Property Name="estado" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Notificaciones">
+    <Key>
+      <PropertyRef Name="id_notificacion" />
+    </Key>
+    <Property Name="id_notificacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_usuario" Type="int" Nullable="false" />
+    <Property Name="tipo" Type="varchar" MaxLength="20" />
+    <Property Name="mensaje" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="fecha_envio" Type="datetime" />
+    <Property Name="leida" Type="bit" />
+    <Property Name="estado" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Perfil">
+    <Key>
+      <PropertyRef Name="id_perfil" />
+    </Key>
+    <Property Name="id_perfil" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rimagen_perfil" Type="varbinary(max)" />
+    <Property Name="Documneto_frente" Type="varbinary(max)" />
+    <Property Name="docuemnto_atras" Type="varbinary(max)" />
+    <Property Name="documento" Type="varchar" MaxLength="25" />
+    <Property Name="nombre_completo" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="direccion" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="fecha_nacimiento" Type="datetime" />
+    <Property Name="correo" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="telefono" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="sexo" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="estado" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="fecha_registro" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ProveedorEtiqueta">
+    <Key>
+      <PropertyRef Name="id_proveedor_etiqueta" />
+    </Key>
+    <Property Name="id_proveedor_etiqueta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_proveedor" Type="int" Nullable="false" />
+    <Property Name="id_etiqueta" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProveedorServicio">
+    <Key>
+      <PropertyRef Name="id_proveedor" />
+    </Key>
+    <Property Name="id_proveedor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_perfil" Type="int" Nullable="false" />
+    <Property Name="id_especializacion" Type="int" Nullable="false" />
+    <Property Name="descripcion_perfil" Type="varchar" MaxLength="500" />
+    <Property Name="disponibilidad" Type="varchar" MaxLength="15" />
+    <Property Name="calificacion_promedio" Type="decimal" Precision="3" Scale="2" />
+    <Property Name="latitud" Type="decimal" Precision="10" Scale="6" />
+    <Property Name="longitud" Type="decimal" Precision="10" Scale="6" />
+    <Property Name="estado" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Servicios">
+    <Key>
+      <PropertyRef Name="id_servicio" />
+    </Key>
+    <Property Name="id_servicio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="500" />
+    <Property Name="id_categoria" Type="int" Nullable="false" />
+    <Property Name="estado" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ServiciosCategoria">
+    <Key>
+      <PropertyRef Name="id_categoria" />
+    </Key>
+    <Property Name="id_categoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="500" />
+    <Property Name="estado" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Solicitudes">
+    <Key>
+      <PropertyRef Name="id_solicitud" />
+    </Key>
+    <Property Name="id_solicitud" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_consumidor" Type="int" />
+    <Property Name="id_servicio" Type="int" />
+    <Property Name="id_proveedor" Type="int" />
+    <Property Name="fecha_solicitud" Type="datetime" />
+    <Property Name="fecha_servicio" Type="datetime" Nullable="false" />
+    <Property Name="estado" Type="varchar" MaxLength="15" />
+    <Property Name="detalles" Type="varchar" MaxLength="1000" />
+    <Property Name="direccion_servicio" Type="varchar" MaxLength="255" />
+    <Property Name="metodo_pago" Type="varchar" MaxLength="15" />
+    <Property Name="costo" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="calificacion" Type="int" />
+    <Property Name="comentario_calificacion" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_perfil" Type="int" Nullable="false" />
+    <Property Name="nombre_usuario" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="contrasena" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="rol" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="estado" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Administr__id_pe__6D0D32F4">
+    <End Role="Perfil" Type="Self.Perfil" Multiplicity="1" />
+    <End Role="Administrador" Type="Self.Administrador" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Perfil">
+        <PropertyRef Name="id_perfil" />
+      </Principal>
+      <Dependent Role="Administrador">
+        <PropertyRef Name="id_perfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Consumido__id_pe__5BE2A6F2">
+    <End Role="Perfil" Type="Self.Perfil" Multiplicity="1" />
+    <End Role="Consumidor" Type="Self.Consumidor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Perfil">
+        <PropertyRef Name="id_perfil" />
+      </Principal>
+      <Dependent Role="Consumidor">
+        <PropertyRef Name="id_perfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Historial__id_pr__09A971A2">
+    <End Role="ProveedorServicio" Type="Self.ProveedorServicio" Multiplicity="0..1" />
+    <End Role="HistorialServicios" Type="Self.HistorialServicios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProveedorServicio">
+        <PropertyRef Name="id_proveedor" />
+      </Principal>
+      <Dependent Role="HistorialServicios">
+        <PropertyRef Name="id_proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Historial__id_so__08B54D69">
+    <End Role="Solicitudes" Type="Self.Solicitudes" Multiplicity="1" />
+    <End Role="HistorialServicios" Type="Self.HistorialServicios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Solicitudes">
+        <PropertyRef Name="id_solicitud" />
+      </Principal>
+      <Dependent Role="HistorialServicios">
+        <PropertyRef Name="id_solicitud" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Notificac__id_us__114A936A">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Notificaciones" Type="Self.Notificaciones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="id_usuario" />
+      </Principal>
+      <Dependent Role="Notificaciones">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proveedor__id_es__68487DD7">
+    <End Role="Especializaciones" Type="Self.Especializaciones" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ProveedorServicio" Type="Self.ProveedorServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Especializaciones">
+        <PropertyRef Name="id_especializacion" />
+      </Principal>
+      <Dependent Role="ProveedorServicio">
+        <PropertyRef Name="id_especializacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proveedor__id_et__17F790F9">
+    <End Role="Etiqueta" Type="Self.Etiqueta" Multiplicity="1" />
+    <End Role="ProveedorEtiqueta" Type="Self.ProveedorEtiqueta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Etiqueta">
+        <PropertyRef Name="id_etiqueta" />
+      </Principal>
+      <Dependent Role="ProveedorEtiqueta">
+        <PropertyRef Name="id_etiqueta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proveedor__id_pe__6754599E">
+    <End Role="Perfil" Type="Self.Perfil" Multiplicity="1" />
+    <End Role="ProveedorServicio" Type="Self.ProveedorServicio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Perfil">
+        <PropertyRef Name="id_perfil" />
+      </Principal>
+      <Dependent Role="ProveedorServicio">
+        <PropertyRef Name="id_perfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proveedor__id_pr__17036CC0">
+    <End Role="ProveedorServicio" Type="Self.ProveedorServicio" Multiplicity="1" />
+    <End Role="ProveedorEtiqueta" Type="Self.ProveedorEtiqueta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProveedorServicio">
+        <PropertyRef Name="id_proveedor" />
+      </Principal>
+      <Dependent Role="ProveedorEtiqueta">
+        <PropertyRef Name="id_proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Servicios__id_ca__778AC167">
+    <End Role="ServiciosCategoria" Type="Self.ServiciosCategoria" Multiplicity="1" />
+    <End Role="Servicios" Type="Self.Servicios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiciosCategoria">
+        <PropertyRef Name="id_categoria" />
+      </Principal>
+      <Dependent Role="Servicios">
+        <PropertyRef Name="id_categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Solicitud__id_co__00200768">
+    <End Role="Consumidor" Type="Self.Consumidor" Multiplicity="0..1" />
+    <End Role="Solicitudes" Type="Self.Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Consumidor">
+        <PropertyRef Name="id_consumidor" />
+      </Principal>
+      <Dependent Role="Solicitudes">
+        <PropertyRef Name="id_consumidor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Solicitud__id_pr__02084FDA">
+    <End Role="ProveedorServicio" Type="Self.ProveedorServicio" Multiplicity="0..1" />
+    <End Role="Solicitudes" Type="Self.Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProveedorServicio">
+        <PropertyRef Name="id_proveedor" />
+      </Principal>
+      <Dependent Role="Solicitudes">
+        <PropertyRef Name="id_proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Solicitud__id_se__01142BA1">
+    <End Role="Servicios" Type="Self.Servicios" Multiplicity="0..1" />
+    <End Role="Solicitudes" Type="Self.Solicitudes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servicios">
+        <PropertyRef Name="id_servicio" />
+      </Principal>
+      <Dependent Role="Solicitudes">
+        <PropertyRef Name="id_servicio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Usuario__id_perf__5535A963">
+    <End Role="Perfil" Type="Self.Perfil" Multiplicity="1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Perfil">
+        <PropertyRef Name="id_perfil" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="id_perfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="RegistrarUsuarios" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nombre_completo" Type="varchar" Mode="In" />
+    <Parameter Name="direccion" Type="varchar" Mode="In" />
+    <Parameter Name="fecha_Nacimiento" Type="datetime" Mode="In" />
+    <Parameter Name="correo" Type="varchar" Mode="In" />
+    <Parameter Name="telefono" Type="varchar" Mode="In" />
+    <Parameter Name="sexo" Type="varchar" Mode="In" />
+    <Parameter Name="nombre_usuario" Type="varchar" Mode="In" />
+    <Parameter Name="contrasena" Type="varchar" Mode="In" />
+    <Parameter Name="rol" Type="varchar" Mode="In" />
+    <Parameter Name="id_especializacion" Type="int" Mode="In" />
+    <Parameter Name="descripcion_perfil" Type="varchar" Mode="In" />
+    <Parameter Name="rimagen_perfil" Type="varbinary(max)" Mode="In" />
+    <Parameter Name="documento_frente" Type="varbinary(max)" Mode="In" />
+    <Parameter Name="documento_atras" Type="varbinary(max)" Mode="In" />
+    <Parameter Name="documento" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="ServilinkbdModeloStoreContainer">
+    <EntitySet Name="Administrador" EntityType="Self.Administrador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Consumidor" EntityType="Self.Consumidor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Especializaciones" EntityType="Self.Especializaciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Etiqueta" EntityType="Self.Etiqueta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistorialServicios" EntityType="Self.HistorialServicios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Notificaciones" EntityType="Self.Notificaciones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Perfil" EntityType="Self.Perfil" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProveedorEtiqueta" EntityType="Self.ProveedorEtiqueta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProveedorServicio" EntityType="Self.ProveedorServicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Servicios" EntityType="Self.Servicios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ServiciosCategoria" EntityType="Self.ServiciosCategoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Solicitudes" EntityType="Self.Solicitudes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Administr__id_pe__6D0D32F4" Association="Self.FK__Administr__id_pe__6D0D32F4">
+      <End Role="Perfil" EntitySet="Perfil" />
+      <End Role="Administrador" EntitySet="Administrador" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Consumido__id_pe__5BE2A6F2" Association="Self.FK__Consumido__id_pe__5BE2A6F2">
+      <End Role="Perfil" EntitySet="Perfil" />
+      <End Role="Consumidor" EntitySet="Consumidor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Historial__id_pr__09A971A2" Association="Self.FK__Historial__id_pr__09A971A2">
+      <End Role="ProveedorServicio" EntitySet="ProveedorServicio" />
+      <End Role="HistorialServicios" EntitySet="HistorialServicios" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Historial__id_so__08B54D69" Association="Self.FK__Historial__id_so__08B54D69">
+      <End Role="Solicitudes" EntitySet="Solicitudes" />
+      <End Role="HistorialServicios" EntitySet="HistorialServicios" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Notificac__id_us__114A936A" Association="Self.FK__Notificac__id_us__114A936A">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Notificaciones" EntitySet="Notificaciones" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proveedor__id_es__68487DD7" Association="Self.FK__Proveedor__id_es__68487DD7">
+      <End Role="Especializaciones" EntitySet="Especializaciones" />
+      <End Role="ProveedorServicio" EntitySet="ProveedorServicio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proveedor__id_et__17F790F9" Association="Self.FK__Proveedor__id_et__17F790F9">
+      <End Role="Etiqueta" EntitySet="Etiqueta" />
+      <End Role="ProveedorEtiqueta" EntitySet="ProveedorEtiqueta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proveedor__id_pe__6754599E" Association="Self.FK__Proveedor__id_pe__6754599E">
+      <End Role="Perfil" EntitySet="Perfil" />
+      <End Role="ProveedorServicio" EntitySet="ProveedorServicio" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proveedor__id_pr__17036CC0" Association="Self.FK__Proveedor__id_pr__17036CC0">
+      <End Role="ProveedorServicio" EntitySet="ProveedorServicio" />
+      <End Role="ProveedorEtiqueta" EntitySet="ProveedorEtiqueta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Servicios__id_ca__778AC167" Association="Self.FK__Servicios__id_ca__778AC167">
+      <End Role="ServiciosCategoria" EntitySet="ServiciosCategoria" />
+      <End Role="Servicios" EntitySet="Servicios" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Solicitud__id_co__00200768" Association="Self.FK__Solicitud__id_co__00200768">
+      <End Role="Consumidor" EntitySet="Consumidor" />
+      <End Role="Solicitudes" EntitySet="Solicitudes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Solicitud__id_pr__02084FDA" Association="Self.FK__Solicitud__id_pr__02084FDA">
+      <End Role="ProveedorServicio" EntitySet="ProveedorServicio" />
+      <End Role="Solicitudes" EntitySet="Solicitudes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Solicitud__id_se__01142BA1" Association="Self.FK__Solicitud__id_se__01142BA1">
+      <End Role="Servicios" EntitySet="Servicios" />
+      <End Role="Solicitudes" EntitySet="Solicitudes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Usuario__id_perf__5535A963" Association="Self.FK__Usuario__id_perf__5535A963">
+      <End Role="Perfil" EntitySet="Perfil" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
